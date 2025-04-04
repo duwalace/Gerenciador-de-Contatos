@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+📞 Gerenciador de Contatos - React CRUD
+GitHub last commit
+GitHub repo size
+GitHub license
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Um sistema completo de gerenciamento de contatos com operações CRUD (Create, Read, Update, Delete) desenvolvido em React.js com uma interface moderna e responsiva.
 
-## Available Scripts
+Screenshot da Aplicação <!-- Adicione uma screenshot real depois -->
 
-In the project directory, you can run:
+✨ Funcionalidades
+✅ Adicionar novos contatos com foto
 
-### `npm start`
+📋 Listar todos os contatos em formato de tabela
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✏️ Editar informações de contatos existentes
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🗑️ Excluir contatos
 
-### `npm test`
+🔍 Busca instantânea por nome, telefone ou email
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+💰 Conversão automática de salários para Dólar e Euro
 
-### `npm run build`
+📱 Design responsivo para todos os dispositivos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🛠️ Tecnologias Utilizadas
+React.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+React Router
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Axios (para comunicação com API)
 
-### `npm run eject`
+CSS Modules
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+React Icons
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Git e GitHub
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🚀 Como Executar o Projeto
+Pré-requisitos
+Node.js (v14 ou superior)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm ou yarn
 
-## Learn More
+Git (opcional)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Instalação
+Clone o repositório:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+bash
+Copy
+git clone https://github.com/duwalace/Gerenciador-de-Contatos.git
+cd Gerenciador-de-Contatos
+Instale as dependências:
 
-### Code Splitting
+bash
+Copy
+npm install
+# ou
+yarn install
+Inicie o servidor de desenvolvimento:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+bash
+Copy
+npm start
+# ou
+yarn start
+Acesse no navegador:
 
-### Analyzing the Bundle Size
+Copy
+http://localhost:3000
+🌐 API Backend
+Este projeto requer uma API backend para funcionar corretamente. Você pode usar:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Nosso servidor de exemplo (disponível separadamente)
 
-### Making a Progressive Web App
+Ou configurar sua própria API com os seguintes endpoints:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+GET /contatos - Listar contatos
 
-### Advanced Configuration
+POST /contatos - Criar contato
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+PUT /contatos/:id - Atualizar contato
 
-### Deployment
+DELETE /contatos/:id - Excluir contato
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+📝 Licença
+Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para detalhes.
 
-### `npm run build` fails to minify
+🤝 Como Contribuir
+Faça um fork do projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Crie uma branch para sua feature (git checkout -b feature/AmazingFeature)
+
+Commit suas mudanças (git commit -m 'Add some AmazingFeature')
+
+Push para a branch (git push origin feature/AmazingFeature)
+
+Abra um Pull Request
+
+📧 Contato
+Duwalace - seu-email@exemplo.com
+
+Link do Projeto: https://github.com/duwalace/Gerenciador-de-Contatos
