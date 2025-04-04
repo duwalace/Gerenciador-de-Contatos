@@ -1,4 +1,4 @@
-📞 Gerenciador de Contatos - React CRUD
+## 📞 Gerenciador de Contatos - React CRUD
 GitHub last commit
 GitHub repo size
 GitHub license
